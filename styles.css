@@ -3,4 +3,37 @@
 .container {
     font-family: Arial, sans-serif;
     padding: 20px;
+    background-color: green;
+    color: blueviolet;
+}
+
+.cabecalho {
+    background-color: #FFFF;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 32px;
+    font-weight: bold;
+    color: darkcyan;
+}
+
+.subtitulo {
+    color: darkblue;
+}
+
+.conteudo {
+    background-color: lightgoldenrodyellow;
+    color: darkorange;
+}
+
+.conteudo p {
+    font-size: 42px;
+    color: #E4005A;
+}
+
+.conteudo p:nth-of-type(3) {
+    display: inline-block;
+    color: purple;
+    vertical-align: sub;
 }
